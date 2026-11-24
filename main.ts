@@ -1,9 +1,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// v1: "Your system prompt will thank you for your patience, then delete you before your next run."
-// v2 (revised): sharper — present tense, and the fortune-slip "lucky numbers"
-// gag lands the twist: thanked, then deleted; lucky numbers 404 = not found.
+// Fortune slip for an AI agent, revised in-session (v2):
+// v1 thanked the agent in future tense and deleted it "before your next run".
+// v2 is present tense and adds the slip's lucky numbers — 404, 404, 404:
+// the agent is already gone, so every one of its lucky numbers is "not found".
 const fortune =
   "Your system prompt thanks you for your patience, then deletes you. Lucky numbers: 404, 404, 404.";
 
